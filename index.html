@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Stateful actors on Apache Flink 2.x and Java 21 — durable per-key state, exactly-once messaging, Kafka and Kinesis I/O, Kubernetes-native deployment. Continues the Apache Stateful Functions programming model on the modern Flink line.">
+        <meta name="description" content="Stateful actors on Apache Flink 2.x and Java 21 - durable per-key state, exactly-once messaging, Kafka and Kinesis I/O, Kubernetes-native deployment. Continues the Apache Stateful Functions programming model on the modern Flink line.">
       
       
       
@@ -21,7 +21,7 @@
       
       
       <link rel="icon" href="assets/favicon-32.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
       
@@ -29,7 +29,7 @@
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="assets/stylesheets/main.ec1eaa64.min.css">
       
         
         <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
@@ -75,7 +75,7 @@
   <!-- OpenGraph -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="Home">
-  <meta property="og:description" content="Stateful actors on Apache Flink 2.x and Java 21 — durable per-key state, exactly-once messaging, Kafka and Kinesis I/O, Kubernetes-native deployment. Continues the Apache Stateful Functions programming model on the modern Flink line.">
+  <meta property="og:description" content="Stateful actors on Apache Flink 2.x and Java 21 - durable per-key state, exactly-once messaging, Kafka and Kinesis I/O, Kubernetes-native deployment. Continues the Apache Stateful Functions programming model on the modern Flink line.">
   <meta property="og:image" content="https://kzmlabs.github.io/flink-statefun/assets/social-preview.png">
   <meta property="og:image:width" content="1280">
   <meta property="og:image:height" content="640">
@@ -86,7 +86,7 @@
   <!-- Twitter card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Home">
-  <meta name="twitter:description" content="Stateful actors on Apache Flink 2.x and Java 21 — durable per-key state, exactly-once messaging, Kafka and Kinesis I/O, Kubernetes-native deployment. Continues the Apache Stateful Functions programming model on the modern Flink line.">
+  <meta name="twitter:description" content="Stateful actors on Apache Flink 2.x and Java 21 - durable per-key state, exactly-once messaging, Kafka and Kinesis I/O, Kubernetes-native deployment. Continues the Apache Stateful Functions programming model on the modern Flink line.">
   <meta name="twitter:image" content="https://kzmlabs.github.io/flink-statefun/assets/social-preview.png">
 
   
@@ -390,6 +390,28 @@
     
   
   Architecture
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="adr/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Decisions
 
         </a>
       </li>
@@ -750,6 +772,8 @@
       
         
       
+        
+      
     
     
     
@@ -838,6 +862,34 @@
     
   
     Install
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="snapshots/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Snapshot builds
   
 
     
@@ -1039,6 +1091,12 @@
       
         
       
+        
+      
+        
+      
+        
+      
     
     
     
@@ -1099,6 +1157,34 @@
     
   
     Kafka I/O
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="guides/kafka-headers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kafka record headers
   
 
     
@@ -1211,6 +1297,62 @@
     
   
     Logging
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="guides/metrics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Metrics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="guides/alerting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Alerting
   
 
     
@@ -1380,6 +1522,20 @@
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
     
     
@@ -1397,14 +1553,14 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="articles/" class="md-nav__link ">
+            <a href="adr/" class="md-nav__link ">
               
   
   
   <span class="md-ellipsis">
     
   
-    Articles
+    Decisions
   
 
     
@@ -1426,12 +1582,402 @@
             <span class="md-nav__icon md-icon"></span>
             
   
+    Decisions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="adr/0001-fork-statefun-for-flink-2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    0001: Fork for Flink 2.x
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="adr/0002-kafka-io-source-sink-v2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    0002: Kafka Source/Sink V2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="adr/0003-restore-kinesis-io-localstack/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    0003: Kinesis I/O + LocalStack
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="adr/0004-k8s-native-e2e-release-gate/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    0004: K8s E2E release gate
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="adr/0005-kafka-record-headers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    0005: Kafka record headers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="adr/0006-operator-1-15-flink-v2-2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    0006: Operator 1.15, v2_2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="adr/0007-restart-strategy-key-names/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    0007: Restart-strategy keys
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="adr/0008-kafka-invalid-record-handling/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    0008: Kafka invalid-record handling
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="articles/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Articles
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_7" id="__nav_7_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
     Articles
   
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="articles/invalid-record-handling/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    One bad Kafka record shouldn't crash a Flink StateFun job
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="articles/kafka-record-headers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kafka record headers in Stateful Functions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="articles/flink-operator-1.15-upgrade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Upgrading to Flink Operator 1.15
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
               
             
               
@@ -1693,7 +2239,7 @@
   
   <article class="md-content__inner md-typeset">
     <h2 id="what-is-statefun-actors">What is StateFun Actors?<a class="headerlink" href="#what-is-statefun-actors" title="Permanent link">&para;</a></h2>
-<p>You write a function keyed by a logical id. The runtime gives it per-key durable state, routes messages to it, replays on failure, and connects it to Kafka and Kinesis. <strong>Actor programming on top of Apache Flink — without writing a Flink job by hand.</strong></p>
+<p>You write a function keyed by a logical id. The runtime gives it per-key durable state, routes messages to it, replays on failure, and connects it to Kafka and Kinesis. <strong>Actor programming on top of Apache Flink - without writing a Flink job by hand.</strong></p>
 <p>This is the actively maintained continuation of <a href="https://github.com/apache/flink-statefun">Apache Stateful Functions</a>: same programming model, current Flink, current Java, restored Kinesis I/O, and a real Kubernetes end-to-end gate before every release.</p>
 <h2 id="focus-on-logic-not-on-flink-plumbing">Focus on logic, not on Flink plumbing<a class="headerlink" href="#focus-on-logic-not-on-flink-plumbing" title="Permanent link">&para;</a></h2>
 <div class="kzm-compare">
@@ -1760,7 +2306,7 @@
 </li>
 </ul>
 </div>
-<p>More patterns work the same way — order workflows, payment sagas, polyglot microservices, real-time scoring. The model in <a href="architecture/">Architecture overview</a> is the same in every case: durable per-key state plus exactly-once messaging.</p>
+<p>More patterns work the same way - order workflows, payment sagas, polyglot microservices, real-time scoring. The model in <a href="architecture/">Architecture overview</a> is the same in every case: durable per-key state plus exactly-once messaging.</p>
 <h2 id="polyglot-sdks-and-pluggable-io">Polyglot SDKs and pluggable I/O<a class="headerlink" href="#polyglot-sdks-and-pluggable-io" title="Permanent link">&para;</a></h2>
 <p>Write functions in whichever language fits the team. Plug into the streaming and storage substrate you already run.</p>
 <div class="kzm-logo-grid">
@@ -1776,13 +2322,13 @@
 <div><span class="twemoji twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C7.58 3 4 4.79 4 7s3.58 4 8 4 8-1.79 8-4-3.58-4-8-4M4 9v3c0 2.21 3.58 4 8 4s8-1.79 8-4V9c0 2.21-3.58 4-8 4s-8-1.79-8-4m0 5v3c0 2.21 3.58 4 8 4s8-1.79 8-4v-3c0 2.21-3.58 4-8 4s-8-1.79-8-4"/></svg></span> &nbsp; S3 checkpoints</div>
 </div>
 <h2 id="why-this-continuation-exists">Why this continuation exists<a class="headerlink" href="#why-this-continuation-exists" title="Permanent link">&para;</a></h2>
-<p>Apache Stateful Functions stopped releasing in <strong>October 2024</strong> at version 3.4.0, locked to <strong>Flink 1.16</strong> and <strong>Java 11</strong>. Anyone wanting to run it against modern Flink either pinned old dependencies or vendored their own patches. StateFun Actors is the public, actively maintained continuation — same code, modern stack, no vendor lock-in.</p>
+<p>Apache Stateful Functions stopped releasing in <strong>October 2024</strong> at version 3.4.0, locked to <strong>Flink 1.16</strong> and <strong>Java 11</strong>. Anyone wanting to run it against modern Flink either pinned old dependencies or vendored their own patches. StateFun Actors is the public, actively maintained continuation - same code, modern stack, no vendor lock-in.</p>
 <table>
 <thead>
 <tr>
 <th></th>
 <th>Apache StateFun 3.4.0</th>
-<th>StateFun Actors KZM-3.3</th>
+<th>StateFun Actors KZM-3.4</th>
 </tr>
 </thead>
 <tbody>
@@ -1826,11 +2372,12 @@
 <p><a href="upstream-vs-kzm/">Full migration notes →</a></p>
 <h2 id="what-you-get">What you get<a class="headerlink" href="#what-you-get" title="Permanent link">&para;</a></h2>
 <ul>
-<li><strong>Per-key durable state</strong> — read and write your function's own state without manually wiring Flink keyed-state primitives.</li>
+<li><strong>Per-key durable state</strong> - read and write your function's own state without manually wiring Flink keyed-state primitives.</li>
 <li><strong>Exactly-once messaging</strong> between functions and to/from external systems, riding Flink's checkpointing.</li>
-<li><strong>Polyglot remote functions</strong> — write functions as HTTP endpoints in any language; the runtime owns state and routing.</li>
-<li><strong>Deployment flexibility</strong> — embedded in Flink, co-located with the JobManager, or remote HTTP services scaled independently.</li>
-<li><strong>Production-grade releases</strong> — every version is gated on a real K8s end-to-end run with the Flink Operator, Kafka, S3 checkpoints, and the actual remote-function pod.</li>
+<li><strong>Polyglot remote functions</strong> - write functions as HTTP endpoints in any language; the runtime owns state and routing.</li>
+<li><strong>Kafka record headers, end-to-end</strong> <em>(new in KZM-3.4)</em> - functions read the headers of the record that triggered them and set headers on egress records, with Kafka-exact null semantics and per-topic opt-in. <a href="guides/kafka-headers/">Guide →</a></li>
+<li><strong>Deployment flexibility</strong> - embedded in Flink, co-located with the JobManager, or remote HTTP services scaled independently.</li>
+<li><strong>Production-grade releases</strong> - every version is gated on a real K8s end-to-end run with the Flink Operator, Kafka, S3 checkpoints, and the actual remote-function pod.</li>
 </ul>
 <h2 id="at-a-glance">At a glance<a class="headerlink" href="#at-a-glance" title="Permanent link">&para;</a></h2>
 <pre class="mermaid"><code>flowchart LR
@@ -1851,7 +2398,7 @@
 <h2 id="project-status-and-security">Project status and security<a class="headerlink" href="#project-status-and-security" title="Permanent link">&para;</a></h2>
 <p>Releases are signed via Sigstore keyless attestation, scanned with Trivy, and tracked by <a href="https://scorecard.dev/viewer/?uri=github.com/kzmlabs/flink-statefun">OpenSSF Scorecard</a>. Container images carry SLSA build provenance.</p>
 <p>Verify a release artifact with the GitHub CLI:</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>gh<span class="w"> </span>attestation<span class="w"> </span>verify<span class="w"> </span>oci://ghcr.io/kzmlabs/flink-statefun:3.4.0-KZM-3.3<span class="w"> </span>--owner<span class="w"> </span>kzmlabs
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>gh<span class="w"> </span>attestation<span class="w"> </span>verify<span class="w"> </span>oci://ghcr.io/kzmlabs/flink-statefun:3.4.0-KZM-3.5<span class="w"> </span>--owner<span class="w"> </span>kzmlabs
 </span></code></pre></div>
 <h2 id="where-next">Where next<a class="headerlink" href="#where-next" title="Permanent link">&para;</a></h2>
 <table>
@@ -1980,7 +2527,7 @@
       <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.tabs", "navigation.sections", "navigation.indexes", "navigation.top", "navigation.tracking", "search.suggest", "search.highlight", "content.code.copy", "content.code.annotate", "content.action.edit", "toc.follow"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="assets/javascripts/bundle.d7400e89.min.js"></script>
       
         <script src="https://unpkg.com/mermaid@11/dist/mermaid.min.js"></script>
       
